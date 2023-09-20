@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 
@@ -6,12 +6,12 @@ int main() {
     int types, hour, extra, price, nexthour;
 
     cout << endl;
-    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-    cout << "  CALCULATE PRICE OF PARKING" << endl;
-    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-    cout << "-------TYPE OF VEHICLE--------" << endl;
-    cout << "1. CAR            | RM3 " << endl;
-    cout << "2. MOTORCYCLE     | RM2.50 " << endl;
+    cout << "           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+    cout << "               CALCULATE PRICE OF PARKING" << endl;
+    cout << "           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl << endl;
+    cout << "----------------------TYPE OF VEHICLE------------------" << endl;
+    cout << "1. CAR            | RM3   (2hrs)   | + RM2   (per hour)" << endl;
+    cout << "2. MOTORCYCLE     | RM2   (2hrs)   | + RM1   (per hour)" << endl;
     cout << endl;
     cout << "ENTER TYPES OF VEHICLE: ";
     cin >> types;
@@ -23,8 +23,8 @@ int main() {
         break;
 
         case 2 :
-        price = 2.50;
-        extra = 1.50;
+        price = 2;
+        extra = 1;
         break;
 
         default :
